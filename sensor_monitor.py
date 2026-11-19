@@ -45,7 +45,7 @@ def get_user_input():
 #random nummers maken tussen de min en max waarde
 def generate_readings(number_of_readings, minimum, maximum):
     """Genereer reproduceerbare willekeurige sensorwaarden."""
-    random
+    random.seed(21)
     readings = [
         random.uniform(minimum, maximum)
         for _ in range(number_of_readings)
