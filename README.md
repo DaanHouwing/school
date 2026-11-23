@@ -33,3 +33,5 @@ hier maak ik een histogram
 
 dit is het main programma
 
+<img width="887" height="710" alt="image" src="https://github.com/user-attachments/assets/c7ce325b-2967-4dc0-8ce9-6e3ced139bd0" />
+<img width="831" height="356" alt="image" src="https://github.com/user-attachments/assets/459a3837-641c-4f24-94a4-f081763ed6c9" />
