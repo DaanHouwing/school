@@ -1,1 +1,105 @@
+1e Opdracht — Sensor Data Analyse Tool
+Doel
+Ontwikkel een Python-programma dat sensor metingen (readings) simuleert, de gegenereerde metingen analyseert en de resultaten visualiseert.
 
+Je combineert de Python-basisprincipes uit Workshop 1, modules en file handling uit Workshop 2, en NumPy en Matplotlib from Workshop 3.
+
+Belangrijk: Gebruik alleen functions en modules. Gebruik nog geen classes of object-oriented programming.
+
+1. User input
+Vraag de gebruiker bij het starten van het programma om het volgende in te voeren:
+
+Sensortype (bijvoorbeeld temperature of light).
+Aantal te genereren metingen (readings).
+Minimale sensorwaarde.
+Maximale sensorwaarde.
+Waarschuwingsdrempel (alert threshold).
+2. Generate sensor readings
+Gebruik Python's random module om het gevraagde aantal gesimuleerde sensor metingen te genereren.
+
+Vereisten:
+
+Sla de metingen op in een list of NumPy array.
+Gebruik de door de gebruiker ingevoerde minimale en maximale waarden.
+Gebruik een function om de metingen te genereren.
+Zorg dat de resultaten reproduceerbaar zijn met random.seed().
+3. Analyze the data with NumPy
+Bereken en toon (display):
+
+Aantal metingen (number of readings).
+Gemiddelde (mean).
+Minimum.
+Maximum.
+Standaardafwijking (standard deviation).
+Aantal metingen boven de alert threshold.
+Identificeer en toon de metingen die de drempelwaarde overschrijden.
+
+4. Visualize the data with Matplotlib
+Maak twee grafieken (graphs):
+
+Line plot: Toon de sensor metingen tegenover het sample-nummer. Voeg een horizontale lijn toe die de alert threshold aangeeft.
+Histogram: Toon de distributie van de metingen.
+Beide grafieken moeten passende titels, as-labels (axis labels) en een grid bevatten. Voeg waar nodig een legenda (legend) toe.
+
+5. Save the data
+Sla de gegenereerde metingen op in een CSV file.
+
+De CSV file moet ten minste het volgende bevatten:
+
+Sample-nummer.
+Sensor meting (reading).
+Gebruik Python's csv module.
+
+6. Choice
+Geef de gebruiker de keuze tussen het genereren van nieuwe sensor metingen en het inladen van metingen uit een bestaande CSV file.
+
+Als de gebruiker bestaande data inlaadt, analyseer en plot deze data dan zonder nieuwe metingen te genereren.
+
+7. Program structure
+Schrijf het programma in één main Python file genaamd sensor_monitor.py.
+
+Je programma moet functions gebruiken zoals:
+
+get_user_input()
+generate_readings()
+calculate_statistics()
+find_outliers()
+save_readings()
+plot_readings()
+plot_histogram()
+main()
+Je mag andere function namen gebruiken, op voorwaarde dat het programma helder gestructureerd is.
+
+Gebruik het volgende entry point:
+
+if __name__ == "__main__":
+    main()
+8. Error handling
+Je programma moet omgaan met ongeldige gebruikersinvoer (invalid user input):
+
+Tekst ingevoerd waar een getal wordt verwacht.
+Een nul of negatief aantal metingen.
+Een minimale waarde die groter is dan of gelijk is aan het maximum.
+Een probleem bij het opslaan van de CSV file.
+Toon nuttige foutmeldingen (error messages) in plaats van het programma onverwacht te laten falen.
+
+9. GitHub submission
+Lever het project in via GitHub.
+
+Je repository moet het volgende bevatten:
+
+sensor-analysis/
+├── sensor_monitor.py
+├── requirements.txt
+└── README.md
+Je requirements.txt moet de programma-afhankelijkheden (program dependencies) aangeven.
+
+Maak betekenisvolle Git commits tijdens de ontwikkeling en push je voltooid project naar GitHub, niet slechts een enkele upload op het laatste moment.
+
+Deliverables
+De Python source code.
+De gegenereerde CSV data file.
+De twee grafieken, getoond door the programma of opgeslagen als image files.
+Een README en requirements file in de GitHub repository.
+Grading rubric
+PASS/FAIL Inlevering moet voldoen aan de vereisten en de student kan vragen beantwoorden / uitleg geven.
