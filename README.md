@@ -16,3 +16,20 @@ hier laat ik zien hoeveel er over de grenswaarde zijne en de statistieken
 <img width="820" height="653" alt="image" src="https://github.com/user-attachments/assets/a4c1a604-5842-4776-9bfe-fb15d65553a0" />
 
 hier ga ik de metingen opslaan in een csv bestand
+
+<img width="782" height="360" alt="image" src="https://github.com/user-attachments/assets/10f46caa-4369-4c1d-9341-afd50149f21d" />
+
+hier ga ik als er een csv bestand is hem lezen 
+
+<img width="840" height="603" alt="image" src="https://github.com/user-attachments/assets/0712c4a5-4f92-4828-bc61-b3c7bcd6d984" />
+
+hier maak ik een lijn grafiek
+
+<img width="785" height="497" alt="image" src="https://github.com/user-attachments/assets/73ddfc76-3230-41a3-9164-cc617b81f0dc" />
+
+hier maak ik een histogram
+
+<img width="695" height="278" alt="image" src="https://github.com/user-attachments/assets/ac7bb92c-3df7-4cdb-bb1b-b926de4f46e1" />
+
+dit is het main programma
+
