@@ -1,4 +1,4 @@
-#project sensor monitor
+/project sensor monitor
 voor het eerste gedeelte heb ik eerst de vragen gemaakt voor de gene die het gaat gebruiken zoals welke sensor, hoeveel metingen, of je een bestand wil toevoegen.
 <img width="918" height="805" alt="image" src="https://github.com/user-attachments/assets/d20f5dca-2f15-4b4f-ae76-e8c1fdc3771a" />
 
