@@ -68,7 +68,7 @@ def find_outliers(readings, threshold):
     """Geef alle metingen boven de alarmgrens terug."""
     return readings[readings > threshold]
 
-#toon overschrijdingen 
+#toon overschrijdingen en de statistieken
 def display_statistics(readings, threshold, sensor_type):
     """Toon de statistieken en overschrijdingen op het scherm."""
     stats = calculate_statistics(readings)
